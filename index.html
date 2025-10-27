@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KavCom - Solutions de Chauffage & Climatisation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-emerald-50">
+  
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-emerald-600 via-emerald-700 to-emerald-800 text-white py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6">
+          🌡️ Solutions de Chauffage <br>
+          Économiques & Écologiques
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 text-emerald-100">
+          Devis gratuit • Installation rapide • Économies d'énergie garanties
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 text-sm">
+          <div class="flex items-center gap-2 bg-emerald-800 px-4 py-2 rounded-full">
+            <i class="fas fa-check-circle"></i>
+            <span>100% gratuit</span>
+          </div>
+          <div class="flex items-center gap-2 bg-emerald-800 px-4 py-2 rounded-full">
+            <i class="fas fa-clock"></i>
+            <span>Réponse sous 24h</span>
+          </div>
+          <div class="flex items-center gap-2 bg-emerald-800 px-4 py-2 rounded-full">
+            <i class="fas fa-shield-alt"></i>
+            <span>Garanti</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12 text-emerald-900">
+          Pourquoi Choisir KavCom ?
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center p-6 bg-emerald-50 rounded-lg border border-emerald-200">
+            <div class="text-5xl mb-4">💰</div>
+            <h3 class="text-xl font-semibold mb-3 text-emerald-800">Économies d'énergie</h3>
+            <p class="text-gray-600">Jusqu'à 70% de réduction sur vos factures</p>
+          </div>
+          <div class="text-center p-6 bg-emerald-50 rounded-lg border border-emerald-200">
+            <div class="text-5xl mb-4">🌱</div>
+            <h3 class="text-xl font-semibold mb-3 text-emerald-800">Écologique</h3>
+            <p class="text-gray-600">Réduisez votre empreinte carbone</p>
+          </div>
+          <div class="text-center p-6 bg-emerald-50 rounded-lg border border-emerald-200">
+            <div class="text-5xl mb-4">⚡</div>
+            <h3 class="text-xl font-semibold mb-3 text-emerald-800">Installation rapide</h3>
+            <p class="text-gray-600">Intervention sous 48h partout en France</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-16 bg-emerald-50">
+    <div class="container mx-auto px-4">
+      <div class="max-w-2xl mx-auto">
+        <div class="bg-white rounded-xl shadow-xl p-8 md:p-12">
+          <h2 class="text-3xl font-bold text-center mb-8 text-emerald-900">
+            🎯 Obtenez Votre Devis Gratuit
+          </h2>
+          <p class="text-center text-gray-600 mb-8">
+            Remplissez le formulaire et notre équipe vous contacte sous 24h
+          </p>
+
+          <form 
+            action="https://formsubmit.co/admin@holyrentals.com" 
+            method="POST"
+            class="space-y-5"
+          >
+            <!-- CC Ariel automatiquement -->
+            <input type="hidden" name="_cc" value="bariel@hotmail.fr">
+            
+            <!-- Champs visibles -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Nom complet *
+              </label>
+              <input 
+                type="text" 
+                name="name" 
+                required
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:ring-2 outline-none transition-all"
+                placeholder="Votre nom"
+              >
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Email *
+              </label>
+              <input 
+                type="email" 
+                name="email" 
+                required
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:ring-2 outline-none transition-all"
+                placeholder="votre@email.fr"
+              >
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Téléphone *
+              </label>
+              <input 
+                type="tel" 
+                name="phone" 
+                required
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:ring-2 outline-none transition-all"
+                placeholder="06 12 34 56 78"
+              >
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Type de chauffage actuel
+              </label>
+              <select 
+                name="heating_type"
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:ring-2 outline-none transition-all"
+              >
+                <option value="">Sélectionnez une option</option>
+                <option value="Chaudière fioul">Chaudière fioul</option>
+                <option value="Chaudière gaz">Chaudière gaz</option>
+                <option value="Électrique">Électrique</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Message
+              </label>
+              <textarea 
+                name="message" 
+                rows="4"
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 focus:ring-2 outline-none transition-all"
+                placeholder="Décrivez votre projet..."
+              ></textarea>
+            </div>
+
+            <!-- Configuration FormSubmit (INVISIBLE) -->
+            <input type="hidden" name="_subject" value="🔥 Nouveau Lead PAC KavCom">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Merci! Nous vous contactons sous 24h pour votre projet PAC.">
+            <input type="hidden" name="_next" value="https://[VOTRE-DOMAINE]/merci.html">
+            <input type="text" name="_honey" style="display:none">
+            
+            <!-- Bouton submit VERT -->
+            <button 
+              type="submit"
+              class="w-full bg-emerald-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-emerald-700 transition-colors transform hover:scale-105 shadow-lg"
+            >
+              <i class="fas fa-paper-plane mr-2"></i>
+              Obtenir mon devis gratuit
+            </button>
+            
+            <p class="text-sm text-gray-500 text-center">
+              ⚡ Réponse sous 24h • 🔒 Données sécurisées
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-emerald-100 p-8 rounded-lg">
+            <h3 class="text-2xl font-bold mb-4 text-emerald-900">
+              📞 Nous Contacter
+            </h3>
+            <p class="text-gray-700 mb-4">
+              <strong>Email:</strong> contact@kavcom.fr<br>
+              <strong>Tel:</strong> 0800 000 000<br>
+              <strong>Horaires:</strong> Lun-Ven 9h-18h
+            </p>
+          </div>
+          <div class="bg-emerald-100 p-8 rounded-lg">
+            <h3 class="text-2xl font-bold mb-4 text-emerald-900">
+              🎁 Aides & Subventions
+            </h3>
+            <p class="text-gray-700">
+              Bénéficiez des aides de l'État (MaPrimeRénov', CEE, etc.) pour réduire le coût de votre installation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-emerald-900 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-4">KavCom</h3>
+        <p class="text-emerald-200 mb-6">
+          Votre partenaire pour un chauffage économique et écologique
+        </p>
+        <div class="flex justify-center gap-6 mb-6">
+          <a href="#" class="hover:text-emerald-400 transition-colors">
+            <i class="fab fa-facebook text-2xl"></i>
+          </a>
+          <a href="#" class="hover:text-emerald-400 transition-colors">
+            <i class="fab fa-twitter text-2xl"></i>
+          </a>
+          <a href="#" class="hover:text-emerald-400 transition-colors">
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+        </div>
+        <p class="text-sm text-emerald-300">
+          © 2024 KavCom. Tous droits réservés.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
